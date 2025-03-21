@@ -33,11 +33,13 @@ npm start
 4. Get instant monthly payment calculations
 🖼️ ## Screenshots
 
+
 💡 Future Improvements
 🔹 Add an amortization schedule
 🔹 Support for extra payments
 🔹 Dark mode 🌙
 🔹 Export results as PDF or CSV
+
 🤝 Contributing
 Contributions are welcome! If you'd like to improve this project:
 1. Fork the repository
