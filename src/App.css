@@ -1,0 +1,284 @@
+.App {
+  text-align: center;
+  background-color: white;
+  color:rgb(19, 43, 75);
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  padding:20px;
+  flex:50%;
+  padding-right: 2.5em;
+  position: relative;
+}
+.mainDiv {
+  display:flex;
+ margin-top: 70px;
+  margin:auto;
+  width:60%;
+  justify-content: center;
+padding-top:120px;
+
+}
+.Relative {
+  position:absolute;
+  width:500px;
+  height:500px;
+  bottom:0;
+  left:1000px;
+  color:#ffffff;
+  }
+.Div1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 12px;
+}
+.Div1 p{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.div1 {
+  margin-left:0;
+  text-align: left;
+  margin-bottom: 12px;
+}
+.div1 input{
+  margin-top:9px;
+  padding: 8px 30px;
+  border: 1px solid black;
+ width:80%;
+}
+.divider{
+  display:flex;
+  justify-content: space-between;
+  margin-top: 16px;
+  text-align: left;
+}
+.divider div{
+  flex:50%;
+  justify-content: space-between;
+}
+.divider input{
+  margin-top: 7px;
+  border: 1px solid black;
+}
+.App input {
+  border-radius: 4px;
+  padding: 10px 20px;
+}
+
+
+.input-container {
+  position: relative;
+  display: inline-block; /* Ensures that the container only takes up as much width as necessary */
+  width:100%;
+}
+#input-field {
+  padding-left: 50px; /* Adjust padding to make space for the span */
+}
+
+
+.input-addon {
+  position: absolute;
+  top: 60%;
+  left: 0.5px; /* Adjust to position the span as needed */
+  transform: translateY(-50%); /* Center vertically */
+  background-color: #d2edff; /* Optional: Background color for the span */
+  padding: 6px 20px; /* Optional: Padding inside the span */
+  color: #333; /* Text color */
+}
+
+#input-field2 {
+  padding-right: 30px; /* Adjust padding to make space for the span */
+  width:65%;
+}
+
+
+.input-addon2 {
+  position: absolute;
+  top: 57%;
+  right: 12px; /* Adjust to position the span as needed */
+  transform: translateY(-50%); /* Center vertically */
+  background-color: #d2edff; /* Optional: Background color for the span */
+  padding: 6px 11px; /* Optional: Padding inside the span */
+  color: #333; /* Text color */
+}
+
+#input-field3 {
+  padding-right: 50px; /* Adjust padding to make space for the span */
+  width:60%;
+}
+
+
+.input-addon3 {
+  position: absolute;
+  top: 57%;
+  right: 1px;  /* Adjust to position the span as needed */
+  transform: translateY(-50%); /* Center vertically */
+  background-color: #d2edff; /* Optional: Background color for the span */
+  padding: 6px 12px; /* Optional: Padding inside the span */
+  color: #333; /* Text color */
+}
+/* Hide the native radio button */
+
+ 
+
+.Div2 {
+  display:flex;
+  justify-content: space-between;
+}
+.App button {
+  background-color: rgb(205, 219, 10);
+  color:rgb(19, 43, 75);
+  border-radius: 25px;
+  padding:10px 22px;
+  margin-top: 15px;
+  border:none;
+  display: block;
+  cursor: pointer;
+}
+
+input[type="radio"]:checked {
+  border-color: rgb(205, 219, 10);;
+  background-color: rgb(205, 219, 10);
+}
+
+.labels {
+  text-align: left;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.labels label{
+  border: 1px solid black;
+  padding: 8px 12px;
+  margin-top: 8px;
+  border-radius: 5px;
+}
+.labels label:hover {
+  background-color: rgb(253, 255, 206);
+}
+.Div3 h3{
+color:white;
+
+}
+.Div3 {
+  color: rgb(182, 178, 178);
+  background-color: rgb(19, 43, 75);
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 40px;
+  padding:20px;
+  flex:50%;
+  text-align: center;
+ padding-top: 100px;
+}
+.custom-icon{
+  font-size: 80px;
+  text-align: center;
+
+}
+
+
+  .Div4{
+    color: rgb(182, 178, 178);
+    background-color: rgb(19, 43, 75);
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 40px;
+    padding:20px;
+    flex:50%;
+    text-align: left;
+  }
+  .Div4 h3{
+    color:white;
+  }
+  
+  .Div5{
+    background-color: rgb(25, 40, 53);
+    color: rgb(182, 178, 178);
+    padding:30px;
+    border-radius: 15px;
+    border-top: 2px solid rgb(205, 219, 10);;
+    margin-left: 0;
+  margin-top: 30px;
+text-align: left;
+  }
+  .Div5 div {
+color:rgb(205, 219, 10);
+font-size: 29px;
+margin-left: 0px;
+text-align: left;
+margin-top: 10px;
+  }
+  hr {
+    color: rgb(207, 202, 202);
+    margin: 20px 0;
+  }
+  .total{
+    color:white;
+  }
+  .error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  @media only screen and (max-width: 1240px){
+    .mainDiv{
+      display:flex;
+      flex-direction: column;
+      margin:auto auto 20px auto;
+      width:87%;
+      justify-content: center;
+    padding-top:20px;
+    border-radius: none;
+    }
+    .App{
+      border-radius: 0;
+    }
+    .App.Div1 {
+      display:flex;
+      flex-direction: column;
+     text-align: left;
+     justify-content: left;
+      margin-bottom: 10px;
+    }
+    .divider {
+      display:flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    #input-field2 {
+      padding-right: 30px; /* Adjust padding to make space for the span */
+      width:77%;
+    }
+    .Div3,.Div4 {
+      border-radius: 0;
+    }
+    .Div3{
+      padding-top: 40px;
+    }
+    .div1 input{
+      width:70%;
+    }
+    .App button {
+      padding: 10px 55px;
+      width:100%;
+    }
+    .input-addon2{
+     display: none;
+    }
+    #input-field3 {
+      padding-right: 50px; /* Adjust padding to make space for the span */
+      width:70%;
+    }
+    .input-addon3{
+      display: none;
+    }
+    .input-addon{
+      display: none;
+    }
+  }
+  
+
+

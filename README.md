@@ -19,7 +19,7 @@ Follow these steps to set up the project locally:
 
 1. **Clone the repository:**  
    ```sh
-   git clone https://github.com/your-username/mortgage-calculator.git
+   git clone https://github.com/your-username/mortgagecalculator.git
    cd mortgage-calculator
 2. Install dependencies
 npm install
@@ -31,8 +31,10 @@ npm start
 2. Set the interest rate (%)
 3. Choose the loan term (years)
 4. Get instant monthly payment calculations
-🖼️ ## Screenshots
 
+🖼️ ## Screenshots
+![Example Screenshot](images/mort.png)
+![Example Screenshot](images/mort2.png)
 
 💡 Future Improvements
 🔹 Add an amortization schedule
