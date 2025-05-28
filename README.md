@@ -1,13 +1,21 @@
 # 🏡 Mortgage Calculator
 
-A simple **React-based Mortgage Calculator** that helps users estimate their monthly mortgage payments based on loan amount, interest rate, and loan term.
+A lightweight React-based Mortgage Calculator that estimates your monthly mortgage payments based on loan amount, interest rate, and loan term — all updated in real-time as you type.
 
-## 🚀 Features  
-- ✅ Calculate monthly mortgage payments  
-- ✅ Responsive and user-friendly UI  
-- ✅ Real-time updates as users input values  
-- ✅ Clear breakdown of total payment and interest  
-- ✅ Built with React and modern hooks  
+![Example Screenshot](images/mort.png)
+![Example Screenshot](images/mort2.png)
+
+✨ Features
+
+- 🧮 Instant mortgage payment calculation
+
+- 💻 Fully responsive and mobile-friendly UI
+
+- ⚛️ Built using React functional components and hooks
+
+- 📊 Displays total interest and payment breakdown
+
+- ⚡ Real-time updates on input change 
 
 ## 🛠️ Technologies Used  
 - **React** (useState, useEffect)  
@@ -26,28 +34,37 @@ npm install
 3. Start the development server
 npm start
 
-📌 ## How to use
+📌 ## Usage
 1. Enter the loan amount
 2. Set the interest rate (%)
 3. Choose the loan term (years)
 4. Get instant monthly payment calculations
 
-🖼️ ## Screenshots
-![Example Screenshot](images/mort.png)
-![Example Screenshot](images/mort2.png)
+🧠 Future Enhancements
 
-💡 Future Improvements
-🔹 Add an amortization schedule
-🔹 Support for extra payments
-🔹 Dark mode 🌙
-🔹 Export results as PDF or CSV
+📅 Add amortization schedule
+
+💵 Support for extra payments
+
+🌙 Add dark mode
+
+📤 Export results as PDF/CSV
 
 🤝 Contributing
+
 Contributions are welcome! If you'd like to improve this project:
 1. Fork the repository
 2. Create a new branch:
-   git checkout -b feature-branch
+  ```sh
+git checkout -b feature-branch
+```
 3. Make changes and commit
+```sh
    git commit -m "Add a new feature"
+```
 4. Push to GitHub and open a pull request:
-  git push origin feature-branch
+    git push origin feature-branch
+
+📖 Blog Post
+Wanna know how this calculator was built under the hood? Check out the full breakdown here 👉
+[Read the blog post]
