@@ -21,6 +21,13 @@ A lightweight React-based Mortgage Calculator that estimates your monthly mortga
 Experience the Mortgage Calculator in action:
 👉 [View Live on Render](https://mortgagecalculator-kv35.onrender.com/)
 
+## 🎥 Live Walkthrough (Loom Video)
+Prefer watching over reading?
+Here’s a quick walkthrough of how the mortgage calculator works, recorded via Loom:
+👉 [Watch the Loom demo]
+
+(Replace the link above with your actual Loom video link when ready)
+
 ## 🛠️ Technologies Used  
 - **React** (useState, useEffect)  
 - **JavaScript (ES6+)**  
