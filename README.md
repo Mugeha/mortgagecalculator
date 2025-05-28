@@ -5,7 +5,7 @@ A lightweight React-based Mortgage Calculator that estimates your monthly mortga
 ![Example Screenshot](images/mort.png)
 ![Example Screenshot](images/mort2.png)
 
-✨ Features
+## ✨ Features
 
 - 🧮 Instant mortgage payment calculation
 
@@ -15,7 +15,11 @@ A lightweight React-based Mortgage Calculator that estimates your monthly mortga
 
 - 📊 Displays total interest and payment breakdown
 
-- ⚡ Real-time updates on input change 
+- ⚡ Real-time updates on input change
+
+## 🌐 Live Demo
+Experience the Mortgage Calculator in action:
+👉 [View Live on Render](https://mortgagecalculator-kv35.onrender.com/)
 
 ## 🛠️ Technologies Used  
 - **React** (useState, useEffect)  
@@ -34,25 +38,26 @@ npm install
 3. Start the development server
 npm start
 
-📌 ## Usage
+## 📌 Usage
 1. Enter the loan amount
 2. Set the interest rate (%)
 3. Choose the loan term (years)
 4. Get instant monthly payment calculations
 
-🧠 Future Enhancements
+## 🧠 Future Enhancements
 
-📅 Add amortization schedule
+- 📅 Add amortization schedule
 
-💵 Support for extra payments
+- 💵 Support for extra payments
 
-🌙 Add dark mode
+- 🌙 Add dark mode
 
-📤 Export results as PDF/CSV
+- 📤 Export results as PDF/CSV
 
-🤝 Contributing
+- 🤝 Contributing
 
 Contributions are welcome! If you'd like to improve this project:
+
 1. Fork the repository
 2. Create a new branch:
   ```sh
@@ -65,6 +70,7 @@ git checkout -b feature-branch
 4. Push to GitHub and open a pull request:
     git push origin feature-branch
 
-📖 Blog Post
+## 📖 Blog Post
+
 Wanna know how this calculator was built under the hood? Check out the full breakdown here 👉
 [Read the blog post]
