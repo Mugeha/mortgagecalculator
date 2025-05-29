@@ -24,7 +24,7 @@ Experience the Mortgage Calculator in action:
 ## 🎥 Live Walkthrough (Loom Video)
 Prefer watching over reading?
 Here’s a quick walkthrough of how the mortgage calculator works, recorded via Loom:
-👉 [Watch the Loom demo]
+👉 [Watch the Loom demo](https://www.loom.com/share/c306ed6c646647a09c52dc2c7405a9e9?sid=664da038-f5c4-48cb-b345-55edf69f7a72)
 
 (Replace the link above with your actual Loom video link when ready)
 
@@ -80,4 +80,4 @@ git checkout -b feature-branch
 ## 📖 Blog Post
 
 Wanna know how this calculator was built under the hood? Check out the full breakdown here 👉
-[Read the blog post]
+[Read the blog post](https://mugeha585.hashnode.dev/building-a-mortgage-calculator-with-react-a-beginner-friendly-walkthrough)
